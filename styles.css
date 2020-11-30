@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Yellowtail&display=swap");
+
+:root {
+  --primary-color: #f5e050;
+  --black-color: #111827;
+}
+
+body {
+  margin: 0;
+  font-family: "Satisfy", cursive;
+}
+
+.background-nav {
+  background-color: var(--primary-color);
+  padding: 0rem;
+  color: black;
+  margin: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 300;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-family: inherit;
+  font-size: large;
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  max-width: 300px;
+  overflow: scroll;
+  border: 1px solid var(--black-color);
+  padding: 1rem;
+  font-size: large;
+  font-family: "Satisfy", cursive;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  text-align: none;
+  max-width: 300px;
+}
+
+#btn-translate {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  margin: 1rem 0rem;
+  font-size: large;
+  font-family: "Satisfy", cursive;
+  border: none;
+}
+
+.nav-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}

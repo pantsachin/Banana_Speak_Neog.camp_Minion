@@ -4,17 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana App</title>
+
+    <link href="styles.css" rel="stylesheet" />
   </head>
+
   <body>
-    <h1>Banana Talk</h1>
+    <nav class="background-nav">
+      <img class="nav-img" src="minions.jpg" />
+      <h1>Banana Talk</h1>
+    </nav>
 
-    <textarea
-      id="text-area"
-      placeholder="Please write in english to translate it in Minionish"
-    >
-    </textarea>
+    <main>
+      <textarea
+        placeholder="Please write in english to translate it to Minionish"
+        id="text-area"
+      ></textarea>
 
-    <button id="btn-translate">Translate</button>
+      <button id="btn-translate">Translate</button>
+
+      <div style="font-size: larger">The Translation will come here 👇</div>
+      <div id="output"></div>
+    </main>
+
+    <footer>
+      <div>About</div>
+      <p>
+        This is a translation app. Here you can translate English language to
+        Minion series' Banana Language.
+      </p>
+    </footer>
 
     <script src="app.js" type="text/javascript"></script>
   </body>
